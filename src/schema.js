@@ -69,7 +69,7 @@ const typeDefs = gql`
     length: Int @deprecated(reason: "Use durationInSeconds")
 
     "The track's full duration, in seconds"
-    durationInSeconds: Int
+     durationInSeconds: Int
 
     "The module's text-based description, can be in markdown format. In case of a video, it will be the enriched transcript"
     content: String
